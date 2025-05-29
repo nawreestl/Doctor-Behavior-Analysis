@@ -1,0 +1,310 @@
+.navbar2 {
+    background-color: transparent;
+    padding: 15px;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+  }
+
+  
+  .logout-button {
+    color: white;
+    text-align: center; /* Center the content horizontally */
+    margin-top: 220px;
+    margin-left: 70px;
+  }
+  
+  .img-button {
+    width: 70px;
+    height: 70px;
+    display: block; /* Make the image a block element */
+    margin: 40px auto 0; /* Center the image horizontally with 40px top margin */
+  }
+  
+  .logout-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px; /* Arrange items vertically */
+  }
+  
+  .logout-content span {
+    margin-left: 5px; /* Adjust spacing between image and text */
+  }  
+  
+  .logout-button.animate {
+    opacity: 0; /* Make the button transparent */
+  }
+
+
+  .modal {
+    display: block; /* Ensure the modal is displayed */
+    position: fixed;
+    z-index: 1000; /* Ensure it's on top of other elements */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  .modal-content {
+    background-color: #f0ecec;
+    margin: 10% auto; /* Center the modal vertically */
+    padding: 20px;
+    border: 1px solid #888888e6;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+
+  .hov:hover{
+    background-color: #1b2556;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 50px; 
+    height: auto; 
+    margin-top: -5px;
+    border-radius: 50%;
+}
+
+.logo2-container img {
+  width: 80px; 
+  height: auto; 
+  border-radius: 10%;
+}
+
+h5 {
+    margin-left: 10px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.font{
+  margin-left: 50px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+b {
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 24px;
+  color: #0d6efd; /* Bleu */
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0d6efd; /* Jaune */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.w-box {
+  background-color: #74616143; /* Change this to any shade of gray you prefer */
+  padding: 20px; /* Adjust padding as needed */
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 200px;
+}
+
+.gray-box {
+  background-color: white;
+  position: relative;
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 10px; /* Add rounded corners if desired */
+  margin-top: 40px;
+  margin-left: 20px;
+  height: 623px;
+}
+
+.gray-box::before,
+.gray-box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10px; /* Adjust the width of the corner */
+  background-color: #ffd400; /* Change to yellow */
+}
+
+.gray-box::before {
+  left: -0px; /* Adjust to control the position of the left corner */
+  border-top-left-radius: 10px; /* Adjust to match the main box border radius */
+}
+
+.gray-box::after {
+  right: -0px; /* Adjust to control the position of the right corner */
+  border-top-right-radius: 10px; /* Adjust to match the main box border radius */
+}
+
+.logo {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Style for input fields */
+.input {
+  width: 350px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 80px;
+}
+
+label {
+  transform: scale(1.1);
+}
+
+.lab {
+  transform: scale(1);
+}
+
+input[type="radio"] {   
+  margin-top: 5px;
+  margin-bottom: 20px;
+  transform: scale(1.1);
+  margin-left: 80px;
+  margin-top: 22px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  width: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.input-container strong {
+  display: inline-block;
+  width: 160px; /* Adjust the width as needed */
+  
+}
+
+.aa{
+  margin-top: -97px;
+  width: 500px;
+  height: 60px;
+}
+.aab{
+  margin-top: -97px;
+  margin-left: 224px;
+  width: 450px;
+  height: 60px;
+}
+
+.aac{
+  margin-top: -147px;
+  margin-left: 384px;
+  width: 350px;
+  height: 60px;
+}
+
+
+.scrollable-list {
+  max-height: 520px; /* Adjust as needed */
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.fiches-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+  
+}
+
+.bord{
+  background-color: #d7edf6;
+  border-radius: 5%;
+  box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.1);
+}
+
+.fiche-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.fiche-item:last-child {
+  border-bottom: none;
+}
+
+.btbt{
+  float: right;
+  width: 120px;
+  height: 50px;
+  color: red;
+  background-color: rgb(195, 195, 195);
+  border: 2px solid red;
+  font-weight: bold;
+}
+
+.btbt3{
+  float: right;
+  width: 120px;
+  height: 50px;
+  color: red;
+  background-color: rgb(195, 195, 195);
+  border: 2px solid red;
+  font-weight: bold;
+}
+
+.btbt2{
+  float: right;
+  width: 120px;
+  height: 50px;
+  color: rgba(10, 101, 0, 0.541);
+  background-color: rgb(195, 195, 195);
+  border: 2px solid rgba(10, 101, 0, 0.541);
+  font-weight: bold;
+}
+
+.abcabc{
+  text-align: center;
+  font-weight: bold;
+}
+
+table{
+  width: 1220px;
+}
